@@ -1,56 +1,41 @@
-* {
-   margin :0;
-   padding: 0;
-   box-sizing: border-box;
+@font-face {
+    font-family: "police-base";
+    src: url("./playthings.ttf");
+}
 
-   /* Palette de couleur pour mon CV */
-   --color1:#800000;
-   --color2:#982B1C;
-   --color3:#DAD4B5;
-   --color4:#F2E8C6;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    --couleur-claire: #F6F0F0;
+    --couleur-midclaire: #F2E2B1;
+    --couleur-midfonce: #522546;
+    --couleur-fonce: #2C2C2C;
 }
 
 body {
-    background-color: var(--color3);
+    font-family: "police-base";
 }
 
-#info {
-    width : 40%;
-    margin : 15px;
-    padding : 15px;
-    background-color: var(--color4);
-    color : var(--color1);
-    border : var(--color1) solid 2px;
-    border-radius: 15px;  
-}
-
-#info>a {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-    text-decoration: none;
-    width : 50%;
-    aspect-ratio : 4/1;
-    background-color: var(--color1);
-    color: var(--color4);
-    border-radius: 5px;
-    padding: 10px 15px;
-    margin: 10px 0;
-    align-items: center;
-}
-
-#info>h1 {
-
-}
-
-#info>a>img {
-    height: 100%;
-    display: block;
-}
-
-#info>a>p {
-    padding-left: 20px;
+#mail {
+        width: 2vw;
     
 }
-    
+
+#logogithub {
+
+    width: 2vw;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+li {
+
+    font-size: 1.25rem;
+}
